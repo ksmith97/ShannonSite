@@ -1,0 +1,38 @@
+html, body, .container {
+    height: 100%;
+}
+
+.container {
+    display: table;
+    text-align: center;
+}
+
+.vertical-center-row {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+body {
+    //background-image: -webkit-radial-gradient(50% 50%, circle cover, rgb(85, 90, 95) 0%, rgb(28, 30, 32) 100%);
+    background-image: url(images/background.png);
+    color: #fff;
+    font-size: 20pt;
+}
+
+* {
+    color: #fff;
+}
+
+.challenge {
+    display: inline-block;
+    text-align: left;
+}
+
+.small {
+    font-size: 50%;
+}
+
+.large {
+    font-size: 200%;
+}
+
